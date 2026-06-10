@@ -26,6 +26,7 @@ def show_summary( income, expenses):
     print("\nExpenses:")
     total = 0
     for name, amount in expenses.items():
+        print(f" {name} : {amount}")
         total+=amount
 
     remaining = income - total
